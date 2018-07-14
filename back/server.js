@@ -10,6 +10,6 @@ app.get('/test', function (req, res) {
     res.json('ceci est un test!')
   })
   
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!')
+app.listen(4000, function () {
+  console.log('Example app listening on port 4000!')
 })
