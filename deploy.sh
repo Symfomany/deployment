@@ -3,9 +3,9 @@
 echo "Begin Deploy..."
 git pull origin master
 cd back
-npm install
+npm install --production
 cd ../front
 npm install  --production
-npm prune --production
+npm run build
 pm2 restart bo server
 echo "End Deploy..."
