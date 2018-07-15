@@ -7,7 +7,9 @@ cd back
 npm install --production
 echo -ne '\033[32m ###############                     (30%)\r'
 
+
 cd ../front
+npm cache clean --force
 npm install  --production
 echo -ne '\033[32m ###############                     (60%)\r'
 
