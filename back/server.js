@@ -6,9 +6,13 @@ app.get('/',  (req, res) => {
 })
 
 
+app.get('/coucou', (req, res) => {
+  res.json('Coucou, tu veux voir qqch?')
+})
+
 app.get('/test', (req, res) => {
     res.json('ceci est un test!')
-  })
+})
   
 app.listen(4000, () =>  {
   console.log('Example app listening on port 4000!')

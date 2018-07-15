@@ -4,15 +4,15 @@ const cors = require('cors')
 const compression = require('compression');
 
 app.use(cors())
-app.use(compression()); //Compress all routes
+app.use(compression()); 
 
 
 app.get('/',  (req, res) => {
-  res.send('Coucou!')
+  res.send('Coucou je suis ici!')
 })
 
 app.get('/hi', (req, res) => {
-  res.send('Salut Julien!');
+  res.send('Salut Julien 😁');
 })
 
 
@@ -23,7 +23,8 @@ app.get('/api', (req, res) => {
     'Three JS!',
     'Four',
     'Five',
-    'Six'
+    'Six',
+    'Seven'
   ]);
 })
 
