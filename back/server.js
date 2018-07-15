@@ -5,7 +5,6 @@ app.get('/',  (req, res) => {
   res.send('Hello World!')
 })
 
-
 app.get('/coucou', (req, res) => {
   res.json('Coucou, tu veux voir qqch?')
 })
