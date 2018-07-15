@@ -7,25 +7,26 @@ app.use(cors())
 app.use(compression()); //Compress all routes
 
 
-app.get('/', function (req, res) {
+app.get('/',  (req, res) => {
   res.send('Coucou!')
 })
 
-app.get('/hi', function (req, res) {
+app.get('/hi', (req, res) => {
   res.send('Salut Julien!');
 })
 
 
-app.get('/api', function (req, res) {
+app.get('/api', (req, res) => {
   res.json([
     'One',
     'Two',
     'Three JS!',
     'Four',
-    'Five'
+    'Five',
+    'Six'
   ]);
 })
 
-app.listen(3000, function () {
+app.listen(3000, () => {
   console.log('Example app listening on port 3000!')
 })

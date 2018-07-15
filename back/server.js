@@ -1,15 +1,15 @@
 const express = require('express')
 const app = express()
 
-app.get('/', function (req, res) {
+app.get('/',  (req, res) => {
   res.send('Hello World!')
 })
 
 
-app.get('/test', function (req, res) {
+app.get('/test', (req, res) => {
     res.json('ceci est un test!')
   })
   
-app.listen(4000, function () {
+app.listen(4000, () =>  {
   console.log('Example app listening on port 4000!')
 })
