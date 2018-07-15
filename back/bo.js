@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
+const compression = require('compression');
 
 app.use(cors())
+app.use(compression()); //Compress all routes
 
 
 app.get('/', function (req, res) {
