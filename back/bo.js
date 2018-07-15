@@ -20,7 +20,9 @@ app.get('/api', function (req, res) {
   res.json([
     'One',
     'Two',
-    'Three JS!'
+    'Three JS!',
+    'Four',
+    'Five'
   ]);
 })
 
