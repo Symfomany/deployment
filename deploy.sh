@@ -36,7 +36,7 @@ sudo su <<EOF
     npm run build
     echo -ne '\033[32m ###############                     (80%)\r'
 
-    # SSH Key
+    # SSH Key SSL
     # cp -R .well-known/ build/
 
     pm2 restart bo server admin
