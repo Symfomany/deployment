@@ -2,6 +2,10 @@
 echo -e "\033[32m Begin Deploy.."
 echo -ne '\033[32m  ###############                     (0%)\r'
 
+# Access for root
+sudo su <<EOF
+    echo "Confirmation par Mot de passe root"
+EOF
 
 ### Local Deployement
 
@@ -14,8 +18,7 @@ echo -ne '\033[32m ###############                     (5%)\r'
 
 # Remote Deployement
 
-# Access for root
-sudo su <<EOF
+
 
 ssh root@159.89.15.125
 
