@@ -28,7 +28,8 @@ app.get("/api", (req, res) => {
     "Ten",
     "Eleven",
     "Twelve",
-    "Thrirteen"
+    "Thrirteen",
+    "Fourteen"
   ]);
 });
 
