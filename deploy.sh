@@ -39,7 +39,7 @@ sudo su <<EOF
     # SSH Key
     # cp -R .well-known/ build/
 
-    pm2 restart bo server
+    pm2 restart bo server admin
     echo -ne '\033[32m ###############                     (1000%)\r'
 
     echo -e "\033[32m End Deploy."

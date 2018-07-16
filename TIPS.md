@@ -1,5 +1,7 @@
 ## Tips
 
+# Nginx
+
 Use Nginx in Reverse Proxy
 
 http://www.nikola-breznjak.com/blog/nodejs/using-nginx-as-a-reverse-proxy-in-front-of-your-node-js-application/
