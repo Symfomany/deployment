@@ -27,7 +27,7 @@ app.get("/api", (req, res) => {
     "Nine",
     "Ten",
     "Eleven",
-    "Twelve 2"
+    "Twelve"
   ]);
 });
 
