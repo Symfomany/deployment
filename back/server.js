@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/coucou", (req, res) => {
-  res.json("Coucou, tu veux voir qqch ici ?!");
+  res.json("Coucou, tu veux voir Giorgi Armano ?!");
 });
 
 app.get("/test", (req, res) => {

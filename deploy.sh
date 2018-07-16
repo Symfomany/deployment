@@ -17,12 +17,13 @@ echo -ne '\033[32m ###############                     (5%)\r'
 
 
 sudo su <<EOF
-    ssh root@159.89.15.125
+    ssh root@188.166.161.138
 
     cd /home/deployment/
 
     git pull origin master
     echo -ne '\033[32m ###############                     (10%)\r'
+    
     cd back
     npm install --production
     echo -ne '\033[32m ###############                     (30%)\r'
@@ -34,10 +35,8 @@ sudo su <<EOF
     echo -ne '\033[32m ###############                     (60%)\r'
 
     npm run build
-    echo -ne '\033[32m ###############                     (80%)\r'
 
-    # SSH Key
-    # cp -R .well-known/ build/
+    echo -ne '\033[32m ###############                     (80%)\r'
 
     pm2 restart bo server admin
     echo -ne '\033[32m ###############                     (1000%)\r'
