@@ -4,7 +4,7 @@ echo -ne '\033[32m  ###############                     (0%)\r'
 
 # Access for root
 sudo su <<EOF
-    echo "Confirmation par Mot de passe root"
+    echo "zuzu"
 EOF
 
 ### Local Deployement
