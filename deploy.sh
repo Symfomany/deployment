@@ -15,14 +15,7 @@ echo -ne '\033[32m ###############                     (5%)\r'
 # Remote Deployement
 
 # Access for root
-UID=$(id -u)
-if [ x$UID != x0 ] 
-then
-    #Beware of how you compose the command
-    printf -v cmd_str '%q ' "$0" "$@"
-    exec sudo su -c "$cmd_str"
-fi
-
+sudo su <<EOF
 
 ssh root@159.89.15.125
 
