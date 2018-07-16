@@ -3,7 +3,7 @@ echo -e "\033[32m Begin Deploy.."
 echo -ne '\033[32m  ###############                     (0%)\r'
 
 
-# Local Deployement
+### Local Deployement
 
 git add --all
 git commit -m "last changes"
