@@ -19,3 +19,6 @@ Enable GZip:
 	gzip_http_version 1.1;
 	gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
 ```
+
+Tuning Nginx https://www.nginx.com/blog/performance-tuning-tips-tricks/
+Quick Tips http://www.monitis.com/blog/5-quick-tips-to-optimize-your-nginx-performance/
