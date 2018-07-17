@@ -16,7 +16,7 @@ echo -ne '\033[32m ###############                     (5%)\r'
 # Remote Deployement
 
 
-sudo su <<EOF
+sudo bash <<EOF
     ssh root@188.166.161.138
 
     cd /home/deployment/
